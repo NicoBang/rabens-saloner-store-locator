@@ -1,0 +1,13 @@
+{
+  "name": "rabens-saloner-store-locator",
+  "version": "1.0.0",
+  "description": "Store Locator for Rabens Saloner",
+  "scripts": {
+    "update": "node src/shopify-store-updater.js",
+    "test": "node src/shopify-store-updater.js test"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "dotenv": "^16.0.3"
+  }
+}
