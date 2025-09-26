@@ -2,24 +2,34 @@ name: Update Store Data
 
 on:
   schedule:
-    - cron: '0 6 * * *'
-  workflow_dispatch:
+    - cron: '0 6 * * *'  # Dagligt kl 06:00 UTC (07:00 CET / 08:00 CEST)
+  workflow_dispatch:      # Manuel trigger
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
       with:
         node-version: '18'
-    - run: npm install
-    - run: npm run update
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Update store data
       env:
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-    - uses: EndBug/add-and-commit@v9
-      with:
-        add: 'stores*.json stores*.csv'
-        message: 'Auto-update store data'
-        default_author: github_actions
+        GOOGLE_SHEET_NAME: ${{ secrets.GOOGLE_SHEET_NAME }}
+      run: npm run update
+    
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add stores*.json stores*.csv
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M')" && git push)
