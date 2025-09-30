@@ -1,12 +1,6 @@
 # Rabens Saloner Store Locator
 
-## 🌍 Multi-Shop Configuration
-
-| Shop | Domain | Countries | CDN URL |
-|------|--------|-----------|---------|
-| INT | rabenssaloner.myshopify.com | All | [stores-int.min.json](https://cdn.jsdelivr.net/gh/NicoBang/rabens-saloner-store-locator@main/stores-int.min.json) |
-| DK | rabenssaloner-dkk-da.myshopify.dk | All | [stores-dk.min.json](https://cdn.jsdelivr.net/gh/NicoBang/rabens-saloner-store-locator@main/stores-dk.min.json) |
-| ALL | - | All countries | [stores-all.min.json](https://cdn.jsdelivr.net/gh/NicoBang/rabens-saloner-store-locator@main/stores-all.min.json) |
+Simpel store locator der henter data fra Google Sheets og gør det tilgængeligt via CDN.
 
 ## 🚀 Quick Start
 
@@ -20,8 +14,16 @@ npm test
 # Update store data
 npm run update
 
-# Deploy to GitHub
+# Deploy til GitHub
 npm run deploy
+```
+
+## 📦 CDN URL
+
+Efter data er pushed til GitHub, er det tilgængeligt på:
+
+```
+https://cdn.jsdelivr.net/gh/NicoBang/rabens-saloner-store-locator@main/stores.min.json
 ```
 
 ## 📊 Data Source
@@ -29,49 +31,57 @@ npm run deploy
 - **Google Sheet:** [View/Edit](https://docs.google.com/spreadsheets/d/1hjVPF4fAlZJpdA314T2N-NH1ZU_1kfFn1Htn3FmPcYg)
 - **Sheet Name:** forhandlere
 
-## 🔄 Automation
+## 🔄 Automatisk Opdatering
 
-Updates automatically every day at 07:00 CET via GitHub Actions.
+Data opdateres automatisk hver dag kl. 07:00 CET via GitHub Actions.
 
-### Manual Update
+### Manuel opdatering
 
-1. Edit data in Google Sheet
-2. Run `npm run update`
-3. Push to GitHub: `git push`
+1. Rediger data i Google Sheet
+2. Kør: `npm run update`
+3. Push til GitHub: `git push`
 
-## 🔧 Configuration
+## 📁 Output Filer
 
-All settings are in `.env` file (not committed to Git).
+- `stores.json` - Formateret JSON (læsbar)
+- `stores.min.json` - Minified JSON (til produktion)
+- `stores.csv` - CSV format
 
-## 📁 Output Files
+## 📝 Google Sheet Kolonner
 
-### Per Shop
-- `stores-int.json` - All countries
-- `stores-dk.json` - All countries
-- `stores-all.json` - All stores combined
-
-## 📝 Required Google Sheet Columns
-
+Påkrævede kolonner:
 - Company
 - Address
 - Postal Code
 - City
-- Country (Required for filtering)
+- Country
 - Phone
 - Website
-- Email (Optional)
-- Physical (Mark with "X")
-- Online (Mark with "X")
 
-## 🔒 Security
+Valgfrie kolonner:
+- Email
+- Physical (marker med "X")
+- Online (marker med "X")
+- Enhver anden kolonne du ønsker
 
-- API keys are stored in `.env` (never committed)
-- GitHub Secrets are used for automation
-- Google Sheet must be shared as "Anyone with link can view"
+## 🔒 Sikkerhed
 
-## 📞 Support
+- API keys gemmes i `.env` (committes aldrig)
+- GitHub Secrets bruges til automation
+- Google Sheet skal være delt som "Alle med link kan se"
 
-For issues or questions, contact the developer.
+## 🛠️ Shopify Integration
+
+I din Shopify butik kan du bruge data sådan:
+
+```javascript
+fetch('https://cdn.jsdelivr.net/gh/NicoBang/rabens-saloner-store-locator@main/stores.min.json')
+  .then(response => response.json())
+  .then(stores => {
+    // Brug stores data til at vise butikker
+    console.log(stores);
+  });
+```
 
 ---
-Generated: 2025-09-26T12:09:05.123Z
+Generated: 2025-09-30T10:54:22.825Z

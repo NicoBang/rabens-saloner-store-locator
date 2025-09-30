@@ -1,5 +1,5 @@
-// Multi-Shop Store Updater
-// Auto-genereret for Rabens Saloner
+// Store Updater for Rabens Saloner
+// Simpel version - én fil til alle shops
 
 require('dotenv').config();
 const fetch = require('node-fetch');
@@ -10,25 +10,7 @@ const CONFIG = {
     GOOGLE_SHEET_NAME: process.env.GOOGLE_SHEET_NAME || 'Sheet1',
     GOOGLE_API_KEY: process.env.GOOGLE_API_KEY,
     GITHUB_USERNAME: process.env.GITHUB_USERNAME,
-    GITHUB_REPO: process.env.GITHUB_REPO,
-    
-    // Shop konfigurationer
-    SHOPS: {
-            "int": {
-                    "domain": "rabenssaloner.myshopify.com",
-                    "countries": [],
-                    "currency": "EUR",
-                    "language": "en",
-                    "outputFile": "stores-int.json"
-            },
-            "dk": {
-                    "domain": "rabenssaloner-dkk-da.myshopify.dk",
-                    "countries": [],
-                    "currency": "DKK",
-                    "language": "da",
-                    "outputFile": "stores-dk.json"
-            }
-    }
+    GITHUB_REPO: process.env.GITHUB_REPO
 };
 
 async function fetchFromGoogleSheets() {
@@ -61,30 +43,20 @@ async function fetchFromGoogleSheets() {
         return store;
     });
     
-    console.log(`✅ Hentet ${stores.length} butikker total`);
+    console.log(`✅ Hentet ${stores.length} butikker`);
     return stores;
-}
-
-function filterStoresForShop(allStores, shopConfig) {
-    if (!shopConfig.countries || shopConfig.countries.length === 0) {
-        return allStores;
-    }
-    
-    return allStores.filter(store => {
-        return shopConfig.countries.includes(store.Country);
-    });
 }
 
 function convertToCSV(stores) {
     if (!stores || stores.length === 0) return '';
     
-    const headers = Object.keys(stores[0] || {});
+    const headers = Object.keys(stores[0]);
     const csvRows = [headers.join(',')];
     
     stores.forEach(store => {
         const row = headers.map(header => {
             const value = store[header] || '';
-            if (value.toString().includes(',') || value.toString().includes('"')) {
+            if (value.toString().includes(',') || value.toString().includes('"') || value.toString().includes('\n')) {
                 return `"${value.toString().replace(/"/g, '""')}"`;
             }
             return value;
@@ -96,42 +68,27 @@ function convertToCSV(stores) {
 }
 
 async function main() {
-    console.log('🚀 Multi-Shop Store Locator Update');
+    console.log('🚀 Starter Store Locator opdatering...');
     console.log(`📅 ${new Date().toISOString()}\n`);
     
     try {
-        // Hent alle butikker én gang
-        const allStores = await fetchFromGoogleSheets();
+        const stores = await fetchFromGoogleSheets();
         
-        // Process hver shop
-        for (const [shopKey, shopConfig] of Object.entries(CONFIG.SHOPS)) {
-            console.log(`\n📦 Processing ${shopKey.toUpperCase()}:`);
-            
-            // Filtrer butikker for denne shop
-            const filteredStores = filterStoresForShop(allStores, shopConfig);
-            console.log(`   ${filteredStores.length} butikker for ${shopConfig.domain}`);
-            
-            // Gem JSON filer
-            fs.writeFileSync(shopConfig.outputFile, JSON.stringify(filteredStores, null, 2));
-            fs.writeFileSync(shopConfig.outputFile.replace('.json', '.min.json'), JSON.stringify(filteredStores));
-            
-            // Gem CSV
-            const csv = convertToCSV(filteredStores);
-            fs.writeFileSync(shopConfig.outputFile.replace('.json', '.csv'), csv);
-            
-            console.log(`   ✅ ${shopConfig.outputFile} oprettet`);
-        }
+        // Gem JSON (formateret og minified)
+        fs.writeFileSync('stores.json', JSON.stringify(stores, null, 2));
+        fs.writeFileSync('stores.min.json', JSON.stringify(stores));
         
-        // Gem også en samlet fil med alle butikker
-        fs.writeFileSync('stores-all.json', JSON.stringify(allStores, null, 2));
-        fs.writeFileSync('stores-all.min.json', JSON.stringify(allStores));
-        fs.writeFileSync('stores-all.csv', convertToCSV(allStores));
+        // Gem CSV
+        const csv = convertToCSV(stores);
+        fs.writeFileSync('stores.csv', csv);
         
-        console.log('\n📊 CDN URLs efter GitHub push:');
-        for (const [shopKey, shopConfig] of Object.entries(CONFIG.SHOPS)) {
-            console.log(`${shopKey}: https://cdn.jsdelivr.net/gh/${CONFIG.GITHUB_USERNAME}/${CONFIG.GITHUB_REPO}@main/${shopConfig.outputFile.replace('.json', '.min.json')}`);
-        }
-        console.log(`all: https://cdn.jsdelivr.net/gh/${CONFIG.GITHUB_USERNAME}/${CONFIG.GITHUB_REPO}@main/stores-all.min.json`);
+        console.log('\n✅ Filer oprettet:');
+        console.log('   • stores.json (formateret)');
+        console.log('   • stores.min.json (minified)');
+        console.log('   • stores.csv');
+        
+        console.log('\n📦 CDN URL (efter GitHub push):');
+        console.log(`   https://cdn.jsdelivr.net/gh/${CONFIG.GITHUB_USERNAME}/${CONFIG.GITHUB_REPO}@main/stores.min.json`);
         
     } catch (error) {
         console.error('\n❌ Fejl:', error.message);
