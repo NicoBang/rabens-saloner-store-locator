@@ -85,3 +85,4 @@ fetch('https://cdn.jsdelivr.net/gh/NicoBang/rabens-saloner-store-locator@main/st
 
 ---
 Generated: 2025-09-30T10:54:22.825Z
+# rabens-saloner-store-locator
