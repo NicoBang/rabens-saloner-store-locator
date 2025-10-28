@@ -1,0 +1,22 @@
+{
+  "name": "rabens-saloner-store-locator",
+  "version": "1.0.0",
+  "description": "Store Locator for Rabens Saloner",
+  "main": "src/store-updater.js",
+  "scripts": {
+    "update": "node src/store-updater.js",
+    "test": "node scripts/test-connection.js",
+    "deploy": "npm run update && git add . && git commit -m 'Update stores' && git push"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "dotenv": "^16.0.3"
+  },
+  "keywords": [
+    "store-locator",
+    "shopify",
+    "rabens saloner"
+  ],
+  "author": "",
+  "license": "MIT"
+}
