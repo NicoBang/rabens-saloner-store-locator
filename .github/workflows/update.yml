@@ -41,14 +41,19 @@ jobs:
         # Configure git to use token for authentication
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
-        # Pull latest changes first
-        git pull --rebase origin main
-
-        # Add and commit if there are changes
+        # Check if there are any changes from npm run update
         git add stores*.json stores*.csv
+
         if git diff --staged --quiet; then
           echo "No changes to commit"
-        else
-          git commit -m "chore: update store data [skip ci]"
-          git push origin main
+          exit 0
         fi
+
+        # Commit the changes
+        git commit -m "chore: update store data [skip ci]"
+
+        # Pull latest changes and rebase our commit on top
+        git pull --rebase origin main
+
+        # Push the changes
+        git push origin main
