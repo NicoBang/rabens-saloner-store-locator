@@ -37,11 +37,18 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
+
+        # Configure git to use token for authentication
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+        # Pull latest changes first
+        git pull --rebase origin main
+
+        # Add and commit if there are changes
         git add stores*.json stores*.csv
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
           git commit -m "chore: update store data [skip ci]"
-          git pull --rebase origin main
-          git push
+          git push origin main
         fi
