@@ -19,7 +19,7 @@ jobs:
         fetch-depth: 0
     
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '18'
     
@@ -57,3 +57,12 @@ jobs:
 
         # Push the changes
         git push origin main
+
+    - name: Purge jsDelivr cache
+      if: success()
+      run: |
+        echo "🔄 Purging jsDelivr cache..."
+        curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/stores.min.json" > /dev/null
+        curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/stores.json" > /dev/null
+        curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/stores.csv" > /dev/null
+        echo "✅ Cache purged"
