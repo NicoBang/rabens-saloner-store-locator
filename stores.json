@@ -128,14 +128,6 @@
     "Phone": ""
   },
   {
-    "Company": "Beckers GMBH",
-    "Address": "Fabrikstrasse 22",
-    "Postal Code": "8152",
-    "City": "Glattbrugg",
-    "Country": "CH",
-    "Phone": ""
-  },
-  {
     "Company": "AMARYLLIS",
     "Address": "687 Great Western Rd",
     "Postal Code": "G12 8RA",
@@ -280,14 +272,6 @@
     "Phone": ""
   },
   {
-    "Company": "SMS - SOMEWHERE AGENCY",
-    "Address": "3 - 4 The Stableyard, Broomgrove Road",
-    "Postal Code": "SW9 9TL",
-    "City": "London",
-    "Country": "GB",
-    "Phone": ""
-  },
-  {
     "Company": "Amelie",
     "Address": "264 High Street, Berkhamsted",
     "Postal Code": "HP4 1AL",
@@ -325,14 +309,6 @@
     "Postal Code": "X91 WV 06",
     "City": "Waterford",
     "Country": "IE",
-    "Phone": ""
-  },
-  {
-    "Company": "SOMEWHERE AGENCY",
-    "Address": "3 - 4 The Stableyard, Broomgrove Road",
-    "Postal Code": "SW9 9TL",
-    "City": "London",
-    "Country": "GB",
     "Phone": ""
   },
   {
@@ -1316,14 +1292,6 @@
     "Address": "Vriesestraat 33",
     "Postal Code": "3311",
     "City": "NN Dordrecht",
-    "Country": "NL",
-    "Phone": ""
-  },
-  {
-    "Company": "Mezza9 Agenturen",
-    "Address": "Steenfabriek 7",
-    "Postal Code": "5126 BP",
-    "City": "Gilze",
     "Country": "NL",
     "Phone": ""
   },
