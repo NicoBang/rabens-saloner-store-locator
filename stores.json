@@ -536,14 +536,6 @@
     "Phone": ""
   },
   {
-    "Company": "Hos Mette",
-    "Address": "Marielyst Strandvej 55",
-    "Postal Code": "4873",
-    "City": "Væggerløse",
-    "Country": "DK",
-    "Phone": ""
-  },
-  {
     "Company": "Salt by Torvet 14 Aps",
     "Address": "Torvegade 3",
     "Postal Code": "6950",
@@ -580,22 +572,6 @@
     "Address": "Østerbrogade 70",
     "Postal Code": "2100",
     "City": "København Ø",
-    "Country": "DK",
-    "Phone": ""
-  },
-  {
-    "Company": "Ofelia v/Lea Hvid Akselbo",
-    "Address": "Algade 8",
-    "Postal Code": "4500",
-    "City": "Nykøbing Sj.",
-    "Country": "DK",
-    "Phone": ""
-  },
-  {
-    "Company": "Busted Silkeborg",
-    "Address": "Vestergade 7",
-    "Postal Code": "8600",
-    "City": "Silkeborg",
     "Country": "DK",
     "Phone": ""
   },
@@ -808,10 +784,18 @@
     "Phone": ""
   },
   {
-    "Company": "Vild Kørvel",
-    "Address": "Vesterbrogade 10",
-    "Postal Code": "3250",
-    "City": "Gilleleje",
+    "Company": "Skaldyrshuset",
+    "Address": "Sønder Havnevej 5",
+    "Postal Code": "9982",
+    "City": "Ålbæk",
+    "Country": "DK",
+    "Phone": ""
+  },
+  {
+    "Company": "Knud E",
+    "Address": "Danmarksgade 81",
+    "Postal Code": "9900",
+    "City": "Frederikshavn",
     "Country": "DK",
     "Phone": ""
   },
@@ -1301,6 +1285,1254 @@
     "Postal Code": "1071 GZ",
     "City": "Amsterdam",
     "Country": "NL",
+    "Phone": ""
+  },
+  {
+    "Company": "Brisa y Cangreja, SL",
+    "Address": "paseo reina Elisenda, 2",
+    "Postal Code": "08034",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "IBZCODE S.L",
+    "Address": "Calle de la Cruz 21",
+    "Postal Code": "07800",
+    "City": "Ibiza",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "NOU BON AIRE SITGES SL (NEW)",
+    "Address": "Calle Mayor 43",
+    "Postal Code": "08870",
+    "City": "Sitges",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Berta Carballeira Maranges",
+    "Address": "Bertrand i serra, 13 local 3",
+    "Postal Code": "08022",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "KODY",
+    "Address": "C/ Margarita Pardo de Cela 8",
+    "Postal Code": "27850",
+    "City": "VIVEIRO",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Maria Yanes Chavez",
+    "Address": "c/ Córdoba 37 1ª A edif Fortuna esc.exteriror",
+    "Postal Code": "29640",
+    "City": "Fuengirola",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "BEGU U",
+    "Address": "PABELLÓ 30",
+    "Postal Code": "17255",
+    "City": "BEGUR",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "THE LITTLE SHOP",
+    "Address": "RONDA SANT ANTONI MARIA CLARET 9",
+    "Postal Code": "17002",
+    "City": "GIRONA",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "SM THE BEAUTY",
+    "Address": "calle san juan n58",
+    "Postal Code": "07500",
+    "City": "manacor",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Cedry Moda",
+    "Address": "Toribio Etxeberria 19",
+    "Postal Code": "20600",
+    "City": "País Vasco",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Palmera",
+    "Address": "Carrer Fra Romeu Burguera 8",
+    "Postal Code": "Santanyi Mallorca",
+    "City": "07650",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Monamoon",
+    "Address": "CALLE REAL 94 LOCAL",
+    "Postal Code": "29680",
+    "City": "Estepona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "BOUTIQUE DEL RIO SL",
+    "Address": "PLAZA DE LA INMACUALADA, 11",
+    "Postal Code": "24001",
+    "City": "LEÓN",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "ESTIBALIZ LARRAURI JAUREGUIZAR",
+    "Address": "C/ Trake Kalea, 3",
+    "Postal Code": "48370",
+    "City": "Bermeo, Vizcaya",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Lovely Reus, SL",
+    "Address": "Raval de Santa Anna 19",
+    "Postal Code": "43201",
+    "City": "Reus",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Mercedes del Nacimiento Romero",
+    "Address": "Rúa Da Cobasa n8, bajo derecha",
+    "Postal Code": "15965",
+    "City": "Ribeira",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Miss Konku S.L",
+    "Address": "Piferrer 144 entlo 3ª",
+    "Postal Code": "08016",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "SMS - MATMILA SHOWROOM, S.L.",
+    "Address": "C/BALMES 449, 1º 2ª",
+    "Postal Code": "8022",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "TOMMY",
+    "Address": "C/SANT ANTONI 35, 2º",
+    "Postal Code": "08201",
+    "City": "SABADELL",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "WEBSHOP-ES",
+    "Address": "Rentemestervej 62, Baghuset",
+    "Postal Code": "2400",
+    "City": "København NV",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "MONTAÑA VALLE GALÁN",
+    "Address": "CALLE ENMEDIO 65",
+    "Postal Code": "12001",
+    "City": "CASTELLÓN",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "MªAntonia Gili Barbosa",
+    "Address": "Gracia, 45 bajos",
+    "Postal Code": "8201",
+    "City": "Sabadell",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Spazio Moda",
+    "Address": "C) Cesaria 17 Bajos 3",
+    "Postal Code": "17211",
+    "City": "Catalunya",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Itsomi / Atlhaea Rosea S.L",
+    "Address": "Local 14 Ribera del Marlin",
+    "Postal Code": "11310",
+    "City": "San Roque",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Noubonaire (old account)",
+    "Address": "Calle Mayor 43",
+    "Postal Code": "08870",
+    "City": "Sitges",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Despiral",
+    "Address": "Santa Clara 43",
+    "Postal Code": "17001",
+    "City": "Girona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "El mundo al reves S.L",
+    "Address": "C/CONDE SALVATIERRA 21 BAJO IZQ",
+    "Postal Code": "46004",
+    "City": "Valencia",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Quera TSE, S.L",
+    "Address": "Plaza De Los árboles 4-6",
+    "Postal Code": "17230",
+    "City": "Palamos",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Iasone Olañeta S.L",
+    "Address": "c) Barrenkalea 13 Bajo",
+    "Postal Code": "20570",
+    "City": "Gipuzkoa",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Malvasia de Fontesquelo, S.L.",
+    "Address": "C/ Xelmírez, 22",
+    "Postal Code": "15704",
+    "City": "Santiago de Compostela",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "PAULA'S ROOM",
+    "Address": "c/Paraires 15,",
+    "Postal Code": "7001",
+    "City": "Palma De Mallorca",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Tuit fashion home S.L",
+    "Address": "c/ Narcís Monturiol, 12",
+    "Postal Code": "8348",
+    "City": "Vilassar de Mar",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "SAND & COCO",
+    "Address": "c/Gonzales del Valle 12",
+    "Postal Code": "33004",
+    "City": "Oviedo",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "YUPPI (Pinat Styles Store S.L)",
+    "Address": "CALLE PINTOR DOMENECH NUM 2",
+    "Postal Code": "08320",
+    "City": "Masnou (EL)-Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "BOHEMIAN",
+    "Address": "Calle Pintor Laxeiro, 13",
+    "Postal Code": "36211",
+    "City": "VIGO",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "NEREA SAN MARTIN ASTIGARRAGA",
+    "Address": "C/ Garibai, 4",
+    "Postal Code": "20004",
+    "City": "San Sebastián",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Inarkadia / Tarazaga Azcoitia S.L",
+    "Address": "Plaza Federico Moyua 6 Lonja",
+    "Postal Code": "48009",
+    "City": "BILBAO",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "It´s lovely (Lourdes Estevill)",
+    "Address": "Raval de Satna Anna 19 Baixos",
+    "Postal Code": "43201",
+    "City": "REUS (Tarragona)",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Figuera D'Indi SL",
+    "Address": "Carretera San Juan km. 3",
+    "Postal Code": "7819",
+    "City": "IBIZA",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "LA FOLIE SANTANDER SL",
+    "Address": "C/ Daoiz Y Velarde 23",
+    "Postal Code": "39001",
+    "City": "Santander",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Kala, S. CCCC.",
+    "Address": "C/ Rosari, 29",
+    "Postal Code": "7701",
+    "City": "Mahón (menorca)",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Penelope Blanco",
+    "Address": "c) Olivia numero 7",
+    "Postal Code": "36001",
+    "City": "Galicia",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "VESTIRAS (BEGUR)",
+    "Address": "Plaza del Porador 3-A",
+    "Postal Code": "8960",
+    "City": "Sant Just Desvern",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "PLUME CB",
+    "Address": "C/Republica Argentina 6",
+    "Postal Code": "06005",
+    "City": "Badajoz",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Anna Vidal Contreras",
+    "Address": "c/ Seminari, 34",
+    "Postal Code": "7760",
+    "City": "Ciutadella ( Menorca)",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Blink - Formentera",
+    "Address": "c/Ramón Llull 11",
+    "Postal Code": "07860",
+    "City": "San Fransisco - Formentera",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "VASQUIAT VFR SL",
+    "Address": "Carrer de Provença 243, local",
+    "Postal Code": "8008",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Clara Sepó Verdura",
+    "Address": "c/. Manlleu, 10 – 3º",
+    "Postal Code": "08500",
+    "City": "Vic, Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "VESTIRAS (SAN JUST DESVERN)",
+    "Address": "Plaza del Porador 3-A",
+    "Postal Code": "8960",
+    "City": "Sant Just Desvern",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Studio Seven & Joo, s.l.",
+    "Address": "Ricardo Calvo 5",
+    "Postal Code": "8022",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "TEORIA RELATIVA, SL (MAAT)",
+    "Address": "c/ Tetuan, 12C",
+    "Postal Code": "8172",
+    "City": "Sant Cugat del Vallés",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "CALSERRA",
+    "Address": "Caputxins, 28",
+    "Postal Code": "8800",
+    "City": "VILANOVA I LA GELTRÚ",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "THE CLASS ROOM",
+    "Address": "C/ BISBE CATALÀ 28-34 3º2",
+    "Postal Code": "08034",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "No 45 at sea",
+    "Address": "Avinguda de la marina 1",
+    "Postal Code": "03720",
+    "City": "Benissa Alicante",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "TRAPPER",
+    "Address": "C/SAN AGUSTIN, 2",
+    "Postal Code": "33202",
+    "City": "GIJON",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "HENAR POLO PINILLA",
+    "Address": "C/ BIENTOCADAS Nº 9",
+    "Postal Code": "37002",
+    "City": "SALAMANCA",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Synoco S.L",
+    "Address": "Avenida Manolete",
+    "Postal Code": "29660",
+    "City": "Nueva Andalucia",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "UNIVERSONUDE S.L.U.",
+    "Address": "C/ NAVARRO RODRIGO 18",
+    "Postal Code": "4001",
+    "City": "ALMERIA",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "248",
+    "Address": "C/ Rossello, 248",
+    "Postal Code": "08008",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "CARMEN-AMELIE S.L",
+    "Address": "C/General Concha, 6",
+    "Postal Code": "48008",
+    "City": "Bilbao",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Nac Nac Madrid S.L",
+    "Address": "C) Velazquez 56",
+    "Postal Code": "28001",
+    "City": "Madrid",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "CAPS SANT CUGAT S.L",
+    "Address": "C/ PROVENZA 274",
+    "Postal Code": "8008",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Petit Comite S.C",
+    "Address": "Jabonerías 11",
+    "Postal Code": "30001",
+    "City": "Murcia",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "FASHION DISTRICT SPAIN, S.L",
+    "Address": "C/ JORGE JUAN, 29 4º",
+    "Postal Code": "28001",
+    "City": "Madrid",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Ángeles Molina Acevedo",
+    "Address": "c/Berdigón 36",
+    "Postal Code": "21003",
+    "City": "Huelva",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "IA MASSANA",
+    "Address": "Avda Diagonal, 626",
+    "Postal Code": "8021",
+    "City": "Barcelona",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Chapeau Fashion SL",
+    "Address": "C/ Hernan Cortes 5",
+    "Postal Code": "46004",
+    "City": "Valencia",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "RUBEN A. HERNANDEZ/IBZ code (Old Account)",
+    "Address": "Calle de la Cruz 21",
+    "Postal Code": "7800",
+    "City": "Ibiza",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "Sanjo Concept s.l",
+    "Address": "C/ Menendez y Pelayo 3",
+    "Postal Code": "15005",
+    "City": "La Coruña",
+    "Country": "ES",
+    "Phone": ""
+  },
+  {
+    "Company": "VICTOIRE 6E",
+    "Address": "17 Rue du Mail",
+    "Postal Code": "75002",
+    "City": "Paris",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "MAISON MADONE",
+    "Address": "20 Rue Bonaparte",
+    "Postal Code": "0600",
+    "City": "Nice",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "NORO",
+    "Address": "01 rue des sergents",
+    "Postal Code": "80000",
+    "City": "Amiens",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "TOM ET LULU",
+    "Address": "26 RUE ADRIEN DUBOUCHE",
+    "Postal Code": "87000",
+    "City": "limoges",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "BIBA",
+    "Address": "18 Rue de Sèvres",
+    "Postal Code": "75007",
+    "City": "Paris",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "PLACE DES TENDANCES",
+    "Address": "110 BIS AV DU GENERAL LECLERC",
+    "Postal Code": "93500",
+    "City": "Pantin",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "MADEMOISELLE MARSEILLE",
+    "Address": "27 RUE SYLVABELLE",
+    "Postal Code": "13006",
+    "City": "MARSEILLE",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "LAMANDA SAINT JEAN",
+    "Address": "61 Rue Léon Gambetta",
+    "Postal Code": "64500",
+    "City": "Saint Jean de Luz",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "LAMANDA BIARRITZ",
+    "Address": "10 AVENUE VICTOR-HUGO",
+    "Postal Code": "64200",
+    "City": "Biarritz",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "VICTOIRE",
+    "Address": "72, BOULEVARD LOUIS BLANC",
+    "Postal Code": "83990",
+    "City": "SAINT TROPEZ",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "AU 44",
+    "Address": "44 Rue de Metz",
+    "Postal Code": "31000",
+    "City": "Toulouse",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "ROCHE",
+    "Address": "69 Rue des Gravilliers",
+    "Postal Code": "75003",
+    "City": "Paris",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "Maison S.G",
+    "Address": "39, Rue Amiral Roussin",
+    "Postal Code": "21000",
+    "City": "Dijon",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "L’armoire de Alexandra",
+    "Address": "2 quai de L’Astrée",
+    "Postal Code": "42600",
+    "City": "MONTBRISON",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "YMA",
+    "Address": "21, Rue Thiers",
+    "Postal Code": "13100",
+    "City": "Aix en Provence",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "Mademoiselle Prune",
+    "Address": "28 avenue du Marechal de Saxe",
+    "Postal Code": "69006",
+    "City": "Lyon",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "ALCHIMIE",
+    "Address": "1 Rue Matheron",
+    "Postal Code": "13100",
+    "City": "Aix En Provence",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "BLUE GIGI",
+    "Address": "6 RUE JEAN LONNET",
+    "Postal Code": "17880",
+    "City": "Les Portes en Ré",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "Le Petit 29",
+    "Address": "2 rue des merciers",
+    "Postal Code": "35400",
+    "City": "Saint Malo",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "ROYALBLS - ROYAL BUNGALOW",
+    "Address": "142 RUE D'ANTIBES",
+    "Postal Code": "06400",
+    "City": "CANNES",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "LA FRINGOLOGUE",
+    "Address": "48 RUE DE L'ANCIEN COURRIER",
+    "Postal Code": "11100",
+    "City": "NARBONNE",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "L'ATELIER 31",
+    "Address": "31 Route de gordes",
+    "Postal Code": "84220",
+    "City": "Cabrieres D'avignon",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "DANS MON DRESSING",
+    "Address": "5 place Ledru Rollin",
+    "Postal Code": "34120",
+    "City": "PEZENAS",
+    "Country": "FR",
+    "Phone": ""
+  },
+  {
+    "Company": "Kuestensilber Concept Store GmbH",
+    "Address": "Große Bleichen 37",
+    "Postal Code": "20354",
+    "City": "Hamburg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Sonnen Apotheke",
+    "Address": "Theodor-Heuss Strasse 35",
+    "Postal Code": "D-85055",
+    "City": "Ingolstadt",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Conceptstore Things We Love",
+    "Address": "Chamonix Strasse 4",
+    "Postal Code": "82467",
+    "City": "Garmisch Partenkirchen",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Rey the Store",
+    "Address": "Kirchbrunnenstr. 30",
+    "Postal Code": "74072",
+    "City": "Heilbronn",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Samt und Bsonders",
+    "Address": "Ludwig-März-Straße 3",
+    "Postal Code": "82377",
+    "City": "Penzberg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Ferdinand",
+    "Address": "Schäfflerstr. 9",
+    "Postal Code": "80333",
+    "City": "München",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Lochner Fashion",
+    "Address": "xxxx",
+    "Postal Code": "xxxx",
+    "City": "Burghausen",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "le SHOP",
+    "Address": "Friedrichstraße 17",
+    "Postal Code": "53111",
+    "City": "Bonn",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "The Danish Girl",
+    "Address": "Franz-Joseph-Straße 46",
+    "Postal Code": "80801",
+    "City": "München",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Como",
+    "Address": "Ruggestr.7",
+    "Postal Code": "59302",
+    "City": "Oelde",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "New Down Town",
+    "Address": "Morgenstraße 12",
+    "Postal Code": "59423",
+    "City": "Unna",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Galerie Hilker",
+    "Address": "Mittelstraße 82",
+    "Postal Code": "32805",
+    "City": "Horn-Bad Meinberg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Caramia Fashion Favourites GmbH",
+    "Address": "Uerdinger Strasse 20",
+    "Postal Code": "40474",
+    "City": "Düsseldorf",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Markenherberge GmbH",
+    "Address": "Am Technologiepark 10",
+    "Postal Code": "82229",
+    "City": "Seefeld",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "La Deco by Pampelmousse",
+    "Address": "Kirchheimer Strasse 75",
+    "Postal Code": "70619",
+    "City": "Stuttgart",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Süssling",
+    "Address": "Sollnerstr. 47",
+    "Postal Code": "81479",
+    "City": "München",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Der Wäscheladen Bed Bath Beach",
+    "Address": "Volkartstr. 2a",
+    "Postal Code": "80634",
+    "City": "München",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "PURE Bekleidungsgeschäfte GmbH",
+    "Address": "Unterer Metzgerbach 15",
+    "Postal Code": "73728",
+    "City": "Esslingen",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "LiN & Co",
+    "Address": "Rathausstraße 6",
+    "Postal Code": "83022",
+    "City": "Rosenheim",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Rue Lazar",
+    "Address": "Geitau 10",
+    "Postal Code": "83735",
+    "City": "Bayrischzell",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Livingroom",
+    "Address": "Wiener Platz 2,",
+    "Postal Code": "81667",
+    "City": "München",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "MUTTER & KIND",
+    "Address": "Marktstr. 8",
+    "Postal Code": "88212",
+    "City": "Ravensburg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Freudenhaus Concept Store",
+    "Address": "Friedrich-Ebert-Straße 112",
+    "Postal Code": "42719",
+    "City": "Solingen",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Palu Store",
+    "Address": "Martinstrasse13",
+    "Postal Code": "83607",
+    "City": "Holzkirchen",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Viva mode",
+    "Address": "Klosterstr. 6",
+    "Postal Code": "50374",
+    "City": "Erftstadt",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Herzstück e.K.",
+    "Address": "Schloßstrasse 14b",
+    "Postal Code": "82031",
+    "City": "Grünwald",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "BLITZ",
+    "Address": "Heumarkt 6",
+    "Postal Code": "96047",
+    "City": "Bamberg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Tragbar (New customer account \"Pure\")",
+    "Address": "Martinstraße 6",
+    "Postal Code": "73728",
+    "City": "Esslingen",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "SCANDI CLUB",
+    "Address": "Maximilianstrasse 23",
+    "Postal Code": "95444",
+    "City": "Bayreuth",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "TATEM",
+    "Address": "Gerlindenweg 36b",
+    "Postal Code": "13505",
+    "City": "Berlin",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Typosphäre Concept GmbH",
+    "Address": "An der Karlsbruecke 2-4",
+    "Postal Code": "90403",
+    "City": "Nürnberg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Schwarzmarkt / Sammet & Lauber Streetwear GmbH",
+    "Address": "Am Obstmarkt 1",
+    "Postal Code": "71522",
+    "City": "Backnang",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Walka",
+    "Address": "Ottenser Hauptstrasse 31",
+    "Postal Code": "22765",
+    "City": "Hamburg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Label-Agent Distribution GmbH (agency account)",
+    "Address": "Tempelhofer Ufer 22",
+    "Postal Code": "10963",
+    "City": "Berlin",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "My Fitch",
+    "Address": "Schirmerstr.42",
+    "Postal Code": "40211",
+    "City": "Düsseldorf",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Diskosirup",
+    "Address": "Wörthstr. 13",
+    "Postal Code": "81667",
+    "City": "München",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Townhouse Shopping",
+    "Address": "Am Staudengarten 7",
+    "Postal Code": "81547",
+    "City": "München",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "RAU Berlin",
+    "Address": "Gormannstrasse 7",
+    "Postal Code": "10119",
+    "City": "Berlin",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Mata Cologne",
+    "Address": "Flandrische Str.6",
+    "Postal Code": "50674",
+    "City": "Köln",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Hit the high",
+    "Address": "Lange Gasse 14",
+    "Postal Code": "72070",
+    "City": "Tübingen",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Room Nine Concept Stores",
+    "Address": "Sterntorbrücke 9",
+    "Postal Code": "53111",
+    "City": "Bonn",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "M.Klein Textil GmbH",
+    "Address": "Eppendorfer Baum 19",
+    "Postal Code": "20249",
+    "City": "Hamburg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "MARIA",
+    "Address": "Fahrgasse 10",
+    "Postal Code": "60311",
+    "City": "Frankfurt am Main",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Capricorn Store",
+    "Address": "Reichenbachstraße 30",
+    "Postal Code": "80469",
+    "City": "München",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "STYN Urban Stories / Heimathafen",
+    "Address": "Frau-Clara-Str. 26-28",
+    "Postal Code": "24340",
+    "City": "Eckernförde",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Stoffwechsel",
+    "Address": "Fürstenstrasse 15",
+    "Postal Code": "66111",
+    "City": "Saarbrücken",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Fine little things",
+    "Address": "Andechser Straße 44a",
+    "Postal Code": "82319",
+    "City": "Starnberg- Söcking",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "SKOUBO",
+    "Address": "Am Weidenpesch 1",
+    "Postal Code": "50858",
+    "City": "Köln Junkersdorf",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Kuestensilber Concept Store GmbH (OLD ACCOUNT)",
+    "Address": "Große Bleichen 37",
+    "Postal Code": "20354",
+    "City": "Hamburg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "MARBY Fashion & Style",
+    "Address": "Pflegstr. 1",
+    "Postal Code": "73033",
+    "City": "Göppingen",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Via Sal Schuhe und Mode",
+    "Address": "Salzstrasse 20",
+    "Postal Code": "79098",
+    "City": "Freiburg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Heckmann",
+    "Address": "Schulstraße 5",
+    "Postal Code": "64283",
+    "City": "Darmstadt",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Werkstattladen",
+    "Address": "Hauptstrasse 11",
+    "Postal Code": "82402",
+    "City": "Seeshaupt",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Hanim No2",
+    "Address": "Rüttenscheider Str. 54",
+    "Postal Code": "45130",
+    "City": "Essen",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Ikona",
+    "Address": "Hegestr. 13",
+    "Postal Code": "20251",
+    "City": "Hamburg",
+    "Country": "DE",
+    "Phone": ""
+  },
+  {
+    "Company": "Garderoba",
+    "Address": "Marticeva 17",
+    "Postal Code": "10000",
+    "City": "Zagreb",
+    "Country": "HR",
+    "Phone": ""
+  },
+  {
+    "Company": "SKÖNA CLARA",
+    "Address": "Hiihtotie 3, Köykärinmäki",
+    "Postal Code": "67600",
+    "City": "Kokkola ",
+    "Country": "FI",
+    "Phone": ""
+  },
+  {
+    "Company": "ORFANIDIS BROS",
+    "Address": "27 Kolokotroni Str.",
+    "Postal Code": "10562",
+    "City": "Athens",
+    "Country": "GR",
+    "Phone": ""
+  },
+  {
+    "Company": "Andre Costa SA Oporto & Andre Costa SA Algarve",
+    "Address": "Rua Engenheiro Ferreira Dias 938 Arm -1      ",
+    "Postal Code": "4100-246",
+    "City": "Porto",
+    "Country": "PT",
+    "Phone": ""
+  },
+  {
+    "Company": "Rogers Fjällbacka",
+    "Address": "Galärbacken 15",
+    "Postal Code": "45740",
+    "City": "Fjällbacka",
+    "Country": "SE",
+    "Phone": ""
+  },
+  {
+    "Company": "Butik MG",
+    "Address": "Lindomevägen 39",
+    "Postal Code": "42750",
+    "City": "Billdal",
+    "Country": "SE",
+    "Phone": ""
+  },
+  {
+    "Company": "2 Plan",
+    "Address": "Slättgårdsvägen 1",
+    "Postal Code": "12941",
+    "City": "Hägersten",
+    "Country": "SE",
+    "Phone": ""
+  },
+  {
+    "Company": "PP CO.",
+    "Address": "Gamla Skeppsbron 10",
+    "Postal Code": "29631",
+    "City": "Åhus",
+    "Country": "SE",
+    "Phone": ""
+  },
+  {
+    "Company": "ARTIKLAR STHLM AB",
+    "Address": "Flemminggatan 65",
+    "Postal Code": "11232",
+    "City": "Stockholm",
+    "Country": "SE",
     "Phone": ""
   }
 ]
