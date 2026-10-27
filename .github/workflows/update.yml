@@ -2,6 +2,7 @@ name: Update Store Data
 
 permissions:
   contents: write
+  actions: write
 
 on:
   schedule:
@@ -66,3 +67,10 @@ jobs:
         curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/stores.json" > /dev/null
         curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/stores.csv" > /dev/null
         echo "✅ Cache purged"
+
+    - name: Keep workflow alive
+      # GitHub deaktiverer planlagte workflows efter 60 dages inaktivitet i repoet
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: gh api -X PUT repos/${{ github.repository }}/actions/workflows/update.yml/enable
