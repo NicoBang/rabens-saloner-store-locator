@@ -16,7 +16,7 @@ const CONFIG = {
 async function fetchFromGoogleSheets() {
     console.log('📊 Henter data fra Google Sheets...');
     
-    const range = `${CONFIG.GOOGLE_SHEET_NAME}!A1:Z1000`;
+    const range = `${CONFIG.GOOGLE_SHEET_NAME}!A:Z`;
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${CONFIG.GOOGLE_SHEET_ID}/values/${encodeURIComponent(range)}?key=${CONFIG.GOOGLE_API_KEY}`;
     
     const response = await fetch(url);
