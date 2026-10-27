@@ -2,6 +2,7 @@ name: Update Store Data
 
 permissions:
   contents: write
+  actions: write
 
 on:
   schedule:
@@ -61,8 +62,26 @@ jobs:
     - name: Purge jsDelivr cache
       if: success()
       run: |
-        echo "🔄 Purging jsDelivr cache..."
-        curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/stores.min.json" > /dev/null
-        curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/stores.json" > /dev/null
-        curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/stores.csv" > /dev/null
-        echo "✅ Cache purged"
+        # jsDelivr kan stadig pege på den forrige commit lige efter push,
+        # så vi purger igen indtil CDN'et serverer samme fil som repoet
+        CDN="https://cdn.jsdelivr.net/gh/${{ github.repository }}@main"
+        PURGE="https://purge.jsdelivr.net/gh/${{ github.repository }}@main"
+        for attempt in 1 2 3 4 5 6 7 8 9 10; do
+          echo "🔄 Purging jsDelivr cache (forsøg $attempt)..."
+          for f in stores.min.json stores.json stores.csv; do
+            curl -s "$PURGE/$f" > /dev/null
+          done
+          sleep 15
+          if curl -sf "$CDN/stores.min.json" | cmp -s - stores.min.json; then
+            echo "✅ CDN serverer de nyeste data"
+            exit 0
+          fi
+        done
+        echo "::warning::jsDelivr serverer stadig gamle data efter 10 forsøg"
+
+    - name: Keep workflow alive
+      # GitHub deaktiverer planlagte workflows efter 60 dages inaktivitet i repoet
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: gh api -X PUT repos/${{ github.repository }}/actions/workflows/update.yml/enable
