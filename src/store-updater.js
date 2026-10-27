@@ -13,6 +13,9 @@ const CONFIG = {
     GITHUB_REPO: process.env.GITHUB_REPO
 };
 
+// Kolonnerne frontend forventer, i sheet'ets rækkefølge
+const DEFAULT_HEADERS = ['Company', 'Address', 'Postal Code', 'City', 'Country', 'Phone'];
+
 async function fetchFromGoogleSheets() {
     console.log('📊 Henter data fra Google Sheets...');
     
@@ -33,9 +36,21 @@ async function fetchFromGoogleSheets() {
         throw new Error('Ingen data fundet i Google Sheets');
     }
     
+    // Overskriftsrækken kan ende midt i data, hvis sheet'et sorteres med den
+    // markeret. Find den hvor den står, så den hverken bliver feltnavne eller en butik
+    const headerIndex = rows.findIndex(row =>
+        row.some(cell => (cell || '').trim().toLowerCase() === 'company')
+    );
+    if (headerIndex === -1) {
+        console.warn('⚠️ Overskriftsrække mangler i sheet - bruger standardkolonner');
+    } else if (headerIndex > 0) {
+        console.warn(`⚠️ Overskriftsrække fundet i række ${headerIndex + 1} i stedet for række 1`);
+    }
+    const headers = headerIndex === -1 ? DEFAULT_HEADERS : rows[headerIndex];
+    const dataRows = rows.filter((_, index) => index !== headerIndex);
+
     // Konverter til JSON
-    const headers = rows[0];
-    const stores = rows.slice(1).map(row => {
+    const stores = dataRows.map(row => {
         const store = {};
         headers.forEach((header, index) => {
             store[header] = row[index] || '';
